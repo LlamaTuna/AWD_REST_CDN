@@ -41,6 +41,12 @@ body {
   color: rgb(12, 12, 12); /* White text */
 }
 
+.navbar-toggler {
+  color: rgba(243, 243, 243, 0);
+  background-color: #838383;
+}
+
+
 /* Navbar Brand and Links */
 .navbar-custom .navbar-brand, 
 .navbar-custom .nav-link {
@@ -56,11 +62,6 @@ body {
 .navbar-custom .nav-link:hover, 
 .navbar-custom .nav-link:focus {
   color: #cacaca; /* Lighter shade when hovered or focused */
-}
-
-/* Change icon color */
-.navbar-custom .navbar-toggler-icon {
-  color: white;
 }
 
 /* Footer */
