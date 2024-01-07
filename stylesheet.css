@@ -35,7 +35,25 @@ body {
   background-color: darken(var(--bs-primary), 10%);
 }
 
+/* Navbar Custom Styles */
+.navbar-custom {
+  background-color: var(--bs-primary); /* Primary color for the background */
+  color: rgb(12, 12, 12); /* White text */
 }
+
+.navbar-toggler {
+
+  color: rgba(243, 243, 243, 0);
+  background-color: #838383;
+}
+
+
+/* Navbar Brand and Links */
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link {
+  color: rgb(218, 218, 218); /* White text for brand and links */
+}
+
 /* Change icon color */
 .navbar-custom .bi {
   color: rgb(255, 255, 255); /* White color for Bootstrap icons */
