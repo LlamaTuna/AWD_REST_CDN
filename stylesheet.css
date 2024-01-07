@@ -58,8 +58,9 @@ body {
   color: #cacaca; /* Lighter shade when hovered or focused */
 }
 
-.navbar-toggler-icon {
-    color: white;
+/* Change icon color */
+.navbar-custom .navbar-toggler-icon {
+  color: white;
 }
 
 /* Footer */
