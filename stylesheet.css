@@ -58,6 +58,10 @@ body {
   color: #cacaca; /* Lighter shade when hovered or focused */
 }
 
+.navbar-toggler-icon {
+    color: white;
+}
+
 /* Footer */
 .footer-custom {
   background-color: #f8f9fa; /* Light gray background; change as needed */
