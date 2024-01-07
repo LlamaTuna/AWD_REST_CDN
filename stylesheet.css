@@ -45,10 +45,7 @@ body {
   color: rgba(243, 243, 243, 0);
   background-color: #838383;
 }
-.navbar-custom .navbar-toggler {
-  color: rgba(243, 243, 243, 0);!important,
-  background-color: #838383; !important; /* Use !important to override Bootstrap */
-}
+
 
 /* Navbar Brand and Links */
 .navbar-custom .navbar-brand, 
