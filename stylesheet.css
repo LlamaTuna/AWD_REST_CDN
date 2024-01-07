@@ -1,0 +1,241 @@
+/* Custom Bootstrap Stylesheet */
+
+/* Primary Color */
+:root {
+  --bs-primary: #252525; /* Change this to your preferred primary color */
+  --bs-primary-rgb: 0, 123, 255; /* Update this as well based on the primary color */
+}
+.header-banner {
+  background: linear-gradient(to right, teal, #013b36); /* Teal linear gradient */
+  width: 100%; /* Full width */
+  height: 100px; /* 100px height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.header-banner h1 {
+  font-size: 40pt; /* 40pt font size */
+  color: white; /* White text color */
+  margin: 0; /* Remove default margins */
+}
+
+/* Typography */
+body {
+  font-family: 'Arial', sans-serif; 
+}
+
+/* Buttons */
+.btn-custom {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: darken(var(--bs-primary), 10%);
+}
+
+/* Navbar Custom Styles */
+.navbar-custom {
+  background-color: var(--bs-primary); /* Primary color for the background */
+  color: rgb(12, 12, 12); /* White text */
+}
+
+/* Navbar Brand and Links */
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link {
+  color: rgb(218, 218, 218); /* White text for brand and links */
+}
+
+/* Change icon color */
+.navbar-custom .bi {
+  color: rgb(255, 255, 255); /* White color for Bootstrap icons */
+}
+
+/* Navbar Link Hover and Focus Styles */
+.navbar-custom .nav-link:hover, 
+.navbar-custom .nav-link:focus {
+  color: #cacaca; /* Lighter shade when hovered or focused */
+}
+
+/* Footer */
+.footer-custom {
+  background-color: #f8f9fa; /* Light gray background; change as needed */
+  color: #495057; /* Dark gray text; change as needed */
+}
+
+/* Additional custom styles */
+
+.home-button {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  color: white;
+}
+
+/* Section styles */
+.search-section, .dropdown-section, .course-details-section, .add-course-section, .courses-table-section, .pagination-controls {
+  border-bottom: 1px solid #999797; /* 1px grey line */
+  padding: 15px; /* Padding around each section */
+  margin-bottom: 15px; /* Space between sections */
+  }
+
+  .course-detail-title {
+  font-weight: bold;
+}
+
+/* Home page course detail display on selection */
+.course-detail-title {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.course-detail {
+  margin-bottom: 5px;
+}
+
+.detail-title {
+  font-weight: bold;
+  display: inline-block;
+  min-width: 150px; /* Ensure all titles are the same width */
+}
+
+/* Style for inline action buttons in the courses table */
+.table .action-buttons {
+  display: flex; /* Align buttons inline */
+  align-items: center; /* Center align items vertically */
+  gap: 10px; /* Space between buttons */
+}
+
+/* Adjust form button style */
+.table .action-buttons form {
+  margin: 0; /* Remove default form margin */
+}
+
+
+/* Add course form fields */
+.form-input {
+  margin-left: 15px; /* Adjust as needed for consistent margin */
+  display: block; /* Ensures each input takes its own line */
+  width: 60%; /* Width of field*/
+}
+/* Add course button */
+.btn-blue {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+.btn-blue:hover {
+  background-color: #0069d9; /* Manually chosen darker blue for hover */
+}
+
+/* Filter course button */
+.btn-black {
+  padding: 4px 10px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.btn-black:hover {
+  background-color: #0069d9; /* Manually chosen darker blue for hover */
+  color: white; /* Ensure text remains white on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Clear course button (styled as a link but behaves like a button) */
+.btn-clear {
+  padding: 7px 10px; /* Padding around the text */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #272727; /* Black background */
+  color: white; /* White text */
+  border: none; /* No border */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.btn-clear:hover {
+  background-color: #0f0f0f; /* Slightly lighter black for hover */
+  color: white; /* Ensure text remains white on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Course detail view */
+
+.course-title {
+  padding: 20px; /* Adjust the value as needed */
+}
+
+.detail-title {
+  font-weight: bold;
+  display: block; /* Ensures each title takes its own line */
+}
+
+.course-detail {
+  margin: 10px; /* Space between courses */
+  padding: 10px; /* Padding around the course details */
+}
+
+/* Edit course */
+.container {
+  margin-top: 30px; /* Space below the navbar */
+  padding: 20px; /* Padding around the form */
+  background-color: #f8f9fa; /* Light background for the form area */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between each form group */
+}
+
+.form-group label {
+  font-weight: bold; /* Make labels bold */
+  display: block; /* Ensure labels are block-level for proper alignment */
+  margin-bottom: 5px; /* Space between label and field */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%; /* Full width fields */
+  padding: 8px; /* Padding inside fields */
+  border-radius: 4px; /* Rounded corners for fields */
+  border: 1px solid #ced4da; /* Border color */
+}
+
+.form-group .form-text {
+  margin-top: 5px; /* Space between field and help text */
+}
+
+.form-group .alert-danger {
+  margin-top: 5px; /* Space between field and error message */
+  padding: 5px; /* Padding inside error message */
+  font-size: 0.85em; /* Smaller font size for error message */
+}
+
+/* Style for the submit button */
+#editCourseForm .btn-primary {
+  background-color: #007bff; /* Primary color */
+  border-color: #007bff; /* Border color to match */
+  padding: 10px 15px; /* Padding for the button */
+  font-size: 1em; /* Font size */
+  border-radius: 5px; /* Rounded corners */
+  margin-top: 15px; /* Space above the button */
+}
+
+#editCourseForm .btn-primary:hover {
+  background-color: #0069d9; /* Darker color on hover */
+  border-color: #0062cc; /* Border color on hover */
+}
+
+/* Footer Styles */
+.footer-custom {
+  background-color: #f5f5f5;
+  color: #495057;
+}
